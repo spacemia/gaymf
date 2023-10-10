@@ -455,7 +455,7 @@ function OrionLib:Init()
 				LoadCfg(readfile(OrionLib.Folder .. "/" .. game.GameId .. ".txt"))
 				OrionLib:MakeNotification({
 					Name = "Success",
-					Content = "Successfully loaded script for " .. game.GameId .. ".",
+					Content = "Successfully loaded script!",
 					Time = 5
 				})
 			end
