@@ -297,6 +297,7 @@ end)
 CreateElement("Frame", function(Color)
 	local Frame = Create("Frame", {
 		BackgroundColor3 = Color or Color3.fromRGB(255, 255, 255),
+		BackgroundTransparency = 0.5,
 		BorderSizePixel = 0
 	})
 	return Frame
@@ -326,7 +327,7 @@ end)
 
 CreateElement("ScrollFrame", function(Color, Width)
 	local ScrollFrame = Create("ScrollingFrame", {
-		BackgroundTransparency = 0.5,
+		BackgroundTransparency = 1,
 		MidImage = "rbxassetid://7445543667",
 		BottomImage = "rbxassetid://7445543667",
 		TopImage = "rbxassetid://7445543667",
